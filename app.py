@@ -117,7 +117,7 @@ formatted_agent_chain = (
 app = FastAPI(
     title="Movie & Weather Agent",
     version="1.0",
-    description="A LangChain agent (Gemini) with search_movies and get_weather tools, served via LangServe."
+    description="A LangChain agent (Gemini) with search_movies and get_weather tools, served via LangServe.",
 )
 
 @app.get("/")
